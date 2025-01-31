@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(46, 46, 46);
+}
+
+*{
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans", serif;
+    font-size: 25px;
+}
+
+img{
+    width: 100%;
+    margin: 0px;
+    min-width: 300px;
+    max-width: 700px;
+    border-radius: 50px;
+}
+
+h1{
+    margin: 0;
+    font-size: 6vh;
+}
+
+p{
+    font-family: "Noto Sans", serif;
+    font-size: 4vh;
+    font-weight: 300;
+}
+
+button{
+    background-color: rgb(255, 166, 0);
+    border: 0;
+    padding: 15px 50px;
+    margin: 20px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(255, 81, 0);
+    transition: 0.45s;
+}
